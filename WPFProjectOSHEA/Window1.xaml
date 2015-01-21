@@ -1,0 +1,54 @@
+﻿<Window x:Class="WPFProjectOSHEA.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="WPF Programming Test O'SHEA" Width="550" Loaded="Window_Loaded"
+    Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"
+    WindowStartupLocation="CenterScreen" 
+    SizeToContent="WidthAndHeight" SizeChanged="MainWindow_OnSizeChanged">
+    <Grid Margin="5,5,5,5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <GroupBox Header="Search" FontWeight="Bold" Grid.Row="0">
+            <Grid Margin="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Label Content="Please enter a number between 1 and 5" Name="searchLabel" Grid.Row="0" Grid.Column="0" Margin="2" FontWeight="Bold"/>
+                <TextBox Grid.Row="0" Grid.Column="1" Name="searchTextBox" />
+                <Button Grid.Column="1" Grid.Row="1" Height="27" Name="searchButton" Click="SearchEvent" IsDefault="True" VerticalAlignment="Top">Search</Button>
+                <Button Grid.Column="1" Grid.Row="1" Height="27" Name="resetButton" Visibility="Hidden" Click="ResetEvent" VerticalAlignment="Top">Reset</Button>
+            </Grid>
+        </GroupBox>
+        
+        <GroupBox Header="Results" Name="resultsGroupBox" FontWeight="Bold" Grid.Row="1" Visibility="Collapsed">
+        <Grid Margin="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="27" />
+                    <RowDefinition Height="27" />
+                    <RowDefinition Height="27" />
+                    <RowDefinition Height="27" />
+                </Grid.RowDefinitions>
+            <Label Content="First Name" Grid.Row="0" Grid.Column="0" FontWeight="Bold" />
+        <Label Content="Last Name" Grid.Row="1" Grid.Column="0" FontWeight="Bold" />
+        <Label Content="Street" Grid.Row="2" Grid.Column="0" FontWeight="Bold" />
+        <Label Content="City" Grid.Row="3" Grid.Column="0" FontWeight="Bold" />
+        <TextBox Grid.Row="0" Grid.Column="1" Name="firstNameTextBox" />
+        <TextBox Grid.Row="1" Grid.Column="1" Name="lastNameTextBox" />
+        <TextBox Grid.Row="2" Grid.Column="1" Name="streetTextBox" />
+        <TextBox Grid.Row="3" Grid.Column="1" Name="cityTextBox" />
+    </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

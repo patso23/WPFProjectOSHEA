@@ -1,0 +1,15 @@
+C:\Users\patrio\Documents\Visual Studio 2008\Projects\WPFProjectOSHEA\WPFProjectOSHEA\bin\Release\RestSharp\RestSharp.dll
+C:\Users\patrio\Documents\Visual Studio 2008\Projects\WPFProjectOSHEA\WPFProjectOSHEA\bin\Release\WPFProjectOSHEA.exe
+C:\Users\patrio\Documents\Visual Studio 2008\Projects\WPFProjectOSHEA\WPFProjectOSHEA\bin\Release\WPFProjectOSHEA.pdb
+C:\Users\patrio\Documents\Visual Studio 2008\Projects\WPFProjectOSHEA\WPFProjectOSHEA\bin\Release\RestSharp.dll
+C:\Users\patrio\Documents\Visual Studio 2008\Projects\WPFProjectOSHEA\WPFProjectOSHEA\obj\Release\ResolveAssemblyReference.cache
+C:\Users\patrio\Documents\Visual Studio 2008\Projects\WPFProjectOSHEA\WPFProjectOSHEA\obj\Release\Window1.baml
+C:\Users\patrio\Documents\Visual Studio 2008\Projects\WPFProjectOSHEA\WPFProjectOSHEA\obj\Release\Window1.g.cs
+C:\Users\patrio\Documents\Visual Studio 2008\Projects\WPFProjectOSHEA\WPFProjectOSHEA\obj\Release\App.g.cs
+C:\Users\patrio\Documents\Visual Studio 2008\Projects\WPFProjectOSHEA\WPFProjectOSHEA\obj\Release\WPFProjectOSHEA_Content.g.cs
+C:\Users\patrio\Documents\Visual Studio 2008\Projects\WPFProjectOSHEA\WPFProjectOSHEA\obj\Release\WPFProjectOSHEA_MarkupCompile.cache
+C:\Users\patrio\Documents\Visual Studio 2008\Projects\WPFProjectOSHEA\WPFProjectOSHEA\obj\Release\WPFProjectOSHEA.g.resources
+C:\Users\patrio\Documents\Visual Studio 2008\Projects\WPFProjectOSHEA\WPFProjectOSHEA\obj\Release\WPFProjectOSHEA.Properties.Resources.resources
+C:\Users\patrio\Documents\Visual Studio 2008\Projects\WPFProjectOSHEA\WPFProjectOSHEA\obj\Release\WPFProjectOSHEA.csproj.GenerateResource.Cache
+C:\Users\patrio\Documents\Visual Studio 2008\Projects\WPFProjectOSHEA\WPFProjectOSHEA\obj\Release\WPFProjectOSHEA.exe
+C:\Users\patrio\Documents\Visual Studio 2008\Projects\WPFProjectOSHEA\WPFProjectOSHEA\obj\Release\WPFProjectOSHEA.pdb

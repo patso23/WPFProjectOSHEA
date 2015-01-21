@@ -190,10 +190,10 @@ namespace WPFProjectOSHEA
         {
 
             RestRequest request = new RestRequest("CUSTOMER/{id}", Method.GET);
-            client.BaseUrl = "http://192.168.6.59/"; // testing on personal server while other server is down
+            //client.BaseUrl = "http://192.168.6.59/"; // testing on personal server while other server is down
             
             // sever is currently down
-            // client.BaseUrl = "http://www.thomas-bayer.com/sqlrest/";
+            client.BaseUrl = "http://www.thomas-bayer.com/sqlrest/";
             
             request.RootElement = "customer";
             request.XmlNamespace = "http://www.w3.org/1999/xlink";
